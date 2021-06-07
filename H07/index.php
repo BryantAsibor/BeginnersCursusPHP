@@ -4,7 +4,7 @@ session_start();
 
 
 $users = array(
-    "Rohat" => array("password" => "1234", "rol" => "administrator"),
+    "Bryce" => array("password" => "1234", "rol" => "administrator"),
     "Barry" => array("password" => "1235", "rol" => "gebruiker"),
     "Berend" => array("password" => "1236", "rol" => "administrator")
 );
