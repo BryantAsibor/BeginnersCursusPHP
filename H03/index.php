@@ -1,6 +1,3 @@
-<?php
-?>
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -15,7 +12,7 @@
 
 $i = 1;
 while($i <= 10) {
-    echo "<img src='img/lion".$i.".jpg'>";
+    echo "<img src='../img/lion".$i.".jpg'>";
     $i++;
 }
 

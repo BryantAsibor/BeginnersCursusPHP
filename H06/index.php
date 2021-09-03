@@ -1,5 +1,5 @@
 <?php
-$db = new mysqli("localhost","root","","school","3308");
+$db = new mysqli("localhost","root","","school","3306");
 $query = "SELECT naam FROM cursist";
 $output = mysqli_query($db, $query);
 echo "<table border='1'><tr>";
